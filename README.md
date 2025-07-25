@@ -16,8 +16,7 @@ Order Types:
 
 Subscription-based tiffin meal plans
 
-**Default Meal Selection:
-**
+**Default Meal Selection:**
 Customers must select a default meal daily by 10 AM or 12 Noon.
 
 If not selected, the system auto-assigns a default meal from the restaurant's available menu.
@@ -39,42 +38,42 @@ Partial refunds are calculated based on days consumed.
 
 Refund is processed against the closest matching meal plan.
 
-**Modification:
-**
+**Modification:**
+
 Customers can change delivery time slots and address daily.
 
-**History & Records
-**View subscription history and order history.
+**History & Records**
+View subscription history and order history.
 
 View meals served under subscription for current and previous weeks.
 
 **2. Chef App**
-**Authentication
-**OTP Authentication: Chefs authenticate using OTP.
+**Authentication**
+OTP Authentication: Chefs authenticate using OTP.
 
-**Restaurant & Meal Plan Setup
-**On login, chef creates or manages their restaurant profile.
+**Restaurant & Meal Plan Setup**
+On login, chef creates or manages their restaurant profile.
 
 Define meal plans for subscriptions, e.g., 7, 15, 30 days.
 
-**Subscription & Orders
-**Customers select a meal plan and make payment.
+**Subscription & Orders**
+Customers select a meal plan and make payment.
 
-**Subscription start time depends on order timing:
-**
+**Subscription start time depends on order timing:**
+
 If ordered before 12 noon, subscription starts immediately.
 
 If ordered after 12 noon, subscription starts next day.
 
-**Batch Management & Rider Assignment
-**Create delivery batches containing both one-time and subscription orders.
+**Batch Management & Rider Assignment**
+Create delivery batches containing both one-time and subscription orders.
 
 Assign batches to riders.
 
 Every order has an OTP visible only to customers for verification.
 
-**Rider Management
-**Register riders under the restaurant.
+**Rider Management**
+Register riders under the restaurant.
 
 Rider registration requires admin approval.
 
@@ -86,8 +85,8 @@ OTP-based login and registration.
 
 Rider accounts can only be created/registered by restaurant chefs.
 
-**Order Delivery
-**Riders view assigned batches.
+**Order Delivery**
+Riders view assigned batches.
 
 Optimized delivery routes provided on integrated map.
 
@@ -100,8 +99,8 @@ Riders receive notifications on batch status changes.
 
 Customers receive corresponding notifications for batch updates (e.g., rider assigned, order out for delivery, order delivered).
 
-**Additional Notes
-**Notifications Summary
+**Additional Notes**
+Notifications Summary
 Customers: Meal selection reminder, order status, batch status.
 
 Riders: Batch assignments, route updates, order status.
